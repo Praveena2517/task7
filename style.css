@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.row {
+    display: flex;
+    gap: 10px;
+}
+.column, .full {
+    padding: 10px;
+    box-sizing: border-box;
+}
+.column, .full1{
+    padding: 10px;
+    box-sizing: border-box;
+    color:black;
+    background-color: aqua;
+}
+.column, .full2 {
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgb(241, 153, 241);
+}
+.full3{
+    background-color: wheat;
+}
+.basic {
+    background-color: rgb(167, 243, 167);
+}
+.two-column .column {
+    background-color: lightgoldenrodyellow;
+    flex: 1;
+}
+.three-column .column1 {
+    background-color:lightblue ;
+    flex: 1;
+}
+.two-row .row {
+    flex-direction: column;
+}
+.three-row .row {
+    flex-direction: column;
+}
+.four-row .row {
+    flex-direction: column;
+}
+.article-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.article-left, .article-right {
+    background-color: lightyellow;
+    padding: 10px;
+    box-sizing: border-box;
+    flex: 1;
+}
+.article-right {
+    order: 1;
+}
+.article-main {
+    background-color: lightcyan;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.full {
+    background-color: pink;
+}
+.three-column .column {
+    background-color: lightblue;
+    flex: 1;
+}
+.medium-grid .item {
+    background-color: lightsalmon;
+    padding: 10px;
+    box-sizing: border-box;
+}
+ .item2{
+   
+        background-color:aquamarine;
+}
+ .item3{
+    background-color:lightseagreen;
+}
+.medium-grid .item {
+    flex: 1;
+    min-width: calc(33.33% - 20px);
+}
+.small-grid .item {
+  flex: 1;
+    min-width: calc(50% - 20px);
+}
+.large-grid .item {
+    flex: 1;
+    min-width: calc(25% - 20px);
+}
+.promo-box {
+    background-color: lawngreen;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+header {
+    background-color: #a0a0a0;
+    padding: 10px;
+}
